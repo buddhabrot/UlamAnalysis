@@ -39,12 +39,29 @@ def spiral_cell(x,y):
 ```
 
 One of the main findings is the appearance of "lines" in the Ulam spiral when <b>prime numbers</b> are marked on it. Some research such as [https://www.researchgate.net/publication/307965102_Finding_Line_Segments_in_the_Ulam_Square_with_the_Hough_Transform] supports this quantitatively.
-This analysis will partially demistify this, but will open up more questions.
+This analysis will partially demistify this, but will also open up more questions.
 
+## Moving across the Ulam spiral
+
+It is important to establish what movement along the Ulam spiral means, from a formulaic point. 
+
+At each point in the Ulam spiral, you belong to a certain "turn", turns being indexed starting with turn "0" being the center of the spiral. It is clear that for each turn, the right-bottom point of the turn equals 
+
+<img src="2nplus1.jpg">
+
+Now, moving right of left from a number can mean three things:
+
+- Either it means subtracting or adding "1" to the number, depending if you are on the top, bottom, right, or left of the curve.
+- If you jump down from the right-bottom point to the next turn, you simply add a number (and reversely, you subtract only one if you retreat to a previous turn from this position)
+- Or, it means jumping to a point on the next or previous turn. The change in number will be dependent on the side of the turn you are at. If you are at the bottom of a turn and jump down, to a next turn, you will simply jump with the same amount as the right-bottom side of that turn. For bottom, left, top, right sides this sequence of distances is given by 
+
+<img src="turns_added.jpg">
 
 ## Main Findings
 
-From rendering various Ulam spirals, it seems the factors of numbers (the factors of "2" being "2n", the factors of "7" being 7n), form <b>clusters</b> in the spiral that are repeated in the horizontal and vertical direction. The following table illustrates this, showing how the factors of numbers are aligned in the Ulam spiral.
+From rendering various Ulam spirals, it seems the factors of numbers (the factors of "2" being "2n", the factors of "7" being 7n), form <b>clusters</b> in the spiral that are repeated in the horizontal and vertical direction. The following table illustrates this, showing how the factors of numbers are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
+
+Note that for "2n" (not drawn), this simply would create a checkerboard pattern as odd/even numbers alternate on the Ulam grid. This drawing was unclear so I omitted it.
 
 <table>
   <tr>
@@ -58,10 +75,78 @@ From rendering various Ulam spirals, it seems the factors of numbers (the factor
   
   <tr>
     <td>
-      <h3>2n</h3>
+      <h3>3n</h3>
     </td>
     <td>
-      <img src="out_0.png" width="70%" style="padding:-100px">
+      <img src="crops/out_1.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+   <tr>
+    <td>
+      <h3>4n</h3>
+    </td>
+    <td>
+      <img src="crops/out_2.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+     <tr>
+    <td>
+      <h3>5n</h3>
+    </td>
+    <td>
+      <img src="crops/out_3.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+     <tr>
+    <td>
+      <h3>6n</h3>
+    </td>
+    <td>
+      <img src="crops/out_4.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+  
+     <tr>
+    <td>
+      <h3>7n</h3>
+    </td>
+    <td>
+      <img src="crops/out_5.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+  
+     <tr>
+    <td>
+      <h3>8n</h3>
+    </td>
+    <td>
+      <img src="crops/out_6.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+  
+  
+     <tr>
+    <td>
+      <h3>9n</h3>
+    </td>
+    <td>
+      <img src="crops/out_7.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+  
+     <tr>
+    <td>
+      <h3>10n</h3>
+    </td>
+    <td>
+      <img src="crops/out_8.png" width="70%" style="padding:-100px">
     </td>
   </tr>
   </table>
