@@ -122,7 +122,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
     </td>
   </tr>
   
-     <tr>
+   <tr>
     <td>
       <h3>5n</h3>
     </td>
@@ -131,7 +131,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
     </td>
   </tr>
   
-     <tr>
+   <tr>
     <td>
       <h3>6n</h3>
     </td>
@@ -141,7 +141,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
   </tr>
   
   
-     <tr>
+   <tr>
     <td>
       <h3>7n</h3>
     </td>
@@ -151,7 +151,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
   </tr>
   
   
-     <tr>
+   tr>
     <td>
       <h3>8n</h3>
     </td>
@@ -162,7 +162,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
   
   
   
-     <tr>
+   <tr>
     <td>
       <h3>9n</h3>
     </td>
@@ -172,12 +172,86 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
   </tr>
   
   
-     <tr>
+   <tr>
     <td>
       <h3>10n</h3>
     </td>
     <td>
       <img src="crops/out_8.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <h3>11n</h3>
+    </td>
+    <td>
+      <img src="crops/out_9.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <h3>12n</h3>
+    </td>
+    <td>
+      <img src="crops/out_10.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>13n</h3>
+    </td>
+    <td>
+      <img src="crops/out_11.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>14n</h3>
+    </td>
+    <td>
+      <img src="crops/out_12.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>15n</h3>
+    </td>
+    <td>
+      <img src="crops/out_13.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>16n</h3>
+    </td>
+    <td>
+      <img src="crops/out_14.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>17n</h3>
+    </td>
+    <td>
+      <img src="crops/out_15.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>18n</h3>
+    </td>
+    <td>
+      <img src="crops/out_16.png" width="70%" style="padding:-100px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>19n</h3>
+    </td>
+    <td>
+      <img src="crops/out_17.png" width="70%" style="padding:-100px">
     </td>
   </tr>
   </table>
