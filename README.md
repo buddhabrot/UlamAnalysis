@@ -57,10 +57,21 @@ Now, moving right of left from a number can mean three things:
 
 <img src="turns_added.jpg">
 
+## Composite factors and pattern overlays
+
+It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers. However, while we will try staying aware of this fact for some of the polynomial constructions we'll be building, we will visually draw all the patterns, since focusing on prime factors alone will hide too much things going.
+
+Note of course, that if the first factor of any series is not included in a pattern (so "7" is not part of the pattern emerging for 7n), the prime numbers will be distributed across the Ulam spiral by overlaying all factor patterns and looking at the leftover positions. Thus, any patterns emerging from the prime number distribution are related to the pattern distribution of regular factors.
+
 ## Main Findings
 
-From rendering various Ulam spirals, it seems the factors of numbers (the factors of "2" being "2n", the factors of "7" being 7n), form <b>clusters</b> in the spiral that are repeated in the horizontal and vertical direction. The following table illustrates this, showing how the factors of numbers are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
+From rendering various Ulam spirals, the factors of numbers (the factors of "2" being "2n", the factors of "7" being 7n), form <b>clusters</b> in the spiral that are repeated in the horizontal and vertical direction.
 
+For instance, the pattern for the factors of "7" (not including "7" in the pattern, as explained above),
+
+
+
+ The following table illustrates this for all factors, showing how the factors of numbers are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
 Note that for "2n" (not drawn), this simply would create a checkerboard pattern as odd/even numbers alternate on the Ulam grid. This drawing was unclear so I omitted it.
 
 <table>
