@@ -91,8 +91,8 @@ For <b>31n</b>
 
 ## Composite factors and pattern overlays
 
-It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers. However, we will not do this and will visually draw and examine all the patterns. 
-This approach could hide important emerging structure, and also lead to problems with repeated factors, as for instance the pattern for the number "8" cannot simply be derived from the pattern for "2" (which is a checkerboard pattern), and any repeated factors cannot be converted into the action of composing patterns by intersection.
+It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers.
+However, this approach could hide important emerging structure, and also lead to problems with repeated factors, as for instance the pattern for the number "8" cannot simply be derived from the pattern for "2" (which is a checkerboard pattern), and any repeated factors cannot be converted into the action of composing patterns by intersection.
 
 Note of course, that if the first factor of any series is not included in a pattern (so "7" is not part of the pattern emerging for 7n), the <b>prime numbers</b> will be distributed across the Ulam spiral by overlaying all factor patterns and looking at the leftover positions. Thus, any patterns emerging from the prime number distribution are related to the pattern distribution of regular factors.
 
