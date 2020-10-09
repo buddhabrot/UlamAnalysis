@@ -104,12 +104,12 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
 
 <table>
   <tr>
-    <th>
+    <td>
       n
-    </th>
-    <th>
+    </td>
+    <td>
       Pattern
-    </th>
+    </td>
   </tr>
   
   <tr>
@@ -121,7 +121,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
     </td>
   </tr>
   
-   <tr>
+  <tr>
     <td>
       <h3>4n</h3>
     </td>
