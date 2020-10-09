@@ -280,7 +280,7 @@ For the factors of "8", which show the diagonal pattern above, the explanation o
 
 Which yields numbers that are divisable by 8 by plugging in n=1,2,...
 
-This pattern then easily is connected to the factors of 8 by observing that the polynomial above is precisely the same as moving up from the right-bottom coordinate of any ulam spiral turn, and also by offsetting this pattern at any factor of 8 to the top or bottom. Hence, this pattern will. Note this is a different explanation than simply intersecting the pattern.
+This pattern then easily is connected to the factors of 8 by observing that the polynomial above is precisely the same as moving up from the right-bottom coordinate of any ulam spiral turn, and also by offsetting this pattern at any factor of 8 to the top or bottom. Hence, this pattern will capture the diagonal lines emerging in the "8" pattern - note however that this pattern is considerably different and more simple than most of the other clusters.
 
 It is our belief each "cluster" of numbers can be represented by a polynomial.
 
