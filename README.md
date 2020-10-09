@@ -12,7 +12,7 @@ It would then be possible, for a certain size of the Ulam spiral, to define a se
 
 ## Definitions
 
-The Ulam spiral is drawn by spiraling out numbers from the inside towards the outside, typically in counter-clockwise fashion. There is not necessarily any official definition, but in my definition, I rotate it 90 degrees compared to the standard literature, to suit the ease of some formulae.
+The Ulam spiral is drawn by spiraling out numbers from the inside towards the outside, typically in clockwise fashion. There is not necessarily any official definition, but in my definition, I rotate it 90 degrees compared to the standard literature, to suit the ease of some formulae.
 
 This makes the spiral look like this:
 
