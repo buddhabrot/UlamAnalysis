@@ -8,6 +8,11 @@ The Ulam spiral is drawn by spiraling out numbers from the inside towards the ou
 
 This makes the spiral look like this:
 
+<img src="spiral.png" width="60%">
+
+Note the right-bottom point of each spiral turn: <h3><b>1,9,25,49,...</b></h3>
+
+This right-bottom point is given by the series 
 
 
 ## Main Findings
