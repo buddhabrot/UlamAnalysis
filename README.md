@@ -57,11 +57,6 @@ Now, moving right of left from a number can mean three things:
 
 <img src="turns_added.jpg">
 
-## Composite factors and pattern overlays
-
-It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers. However, while we will try staying aware of this fact for some of the polynomial constructions we'll be building, we will visually draw all the patterns, since focusing on prime factors alone will hide too much things going.
-
-Note of course, that if the first factor of any series is not included in a pattern (so "7" is not part of the pattern emerging for 7n), the prime numbers will be distributed across the Ulam spiral by overlaying all factor patterns and looking at the leftover positions. Thus, any patterns emerging from the prime number distribution are related to the pattern distribution of regular factors.
 
 ## Main Findings
 
@@ -69,9 +64,34 @@ From rendering various Ulam spirals, the factors of numbers (the factors of "2" 
 
 For instance, the pattern for the factors of "7" (not including "7" in the pattern, as explained above),
 
+<img src="pattern_7.png">
+
+Zoomed out, the pattern becomes clear:
+
+<img src="pattern_7_zoomed.png">
+
+Teh pattern for <b>22n</b>
+
+<img src="pattern_22.jpeg">
+
+For <b>30n</b>
+
+<img src="pattern_30.jpeg">
+
+For <b>31n</b>
+
+<img src="pattern_31.jpeg">
 
 
- The following table illustrates this for all factors, showing how the factors of numbers are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
+## Composite factors and pattern overlays
+
+It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers. However, while we will try staying aware of this fact for some of the polynomial constructions we'll be building, we will visually draw all the patterns, since focusing on prime factors alone will hide too much things going.
+
+Note of course, that if the first factor of any series is not included in a pattern (so "7" is not part of the pattern emerging for 7n), the prime numbers will be distributed across the Ulam spiral by overlaying all factor patterns and looking at the leftover positions. Thus, any patterns emerging from the prime number distribution are related to the pattern distribution of regular factors.
+
+## Patterns and polynomials
+
+ The following table illustrates the patterns for more factors, showing how the factors of numbers are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
 Note that for "2n" (not drawn), this simply would create a checkerboard pattern as odd/even numbers alternate on the Ulam grid. This drawing was unclear so I omitted it.
 
 <table>
