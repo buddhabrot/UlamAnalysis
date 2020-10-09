@@ -256,6 +256,16 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
   </tr>
   </table>
 
-These clusters all seem to be able to be modeled by polynomials in n, that generate a specific cluster of numbers for certain n, and can then be offset in the horizontal or vertical direction by .
+#### Polynomial expansion of patterns
+
+For the factors of "8", which show the diagonal pattern above, the explanation of the pattern can be given by the following polynomial:
+
+<img src="pattern8_poly.jpg"/>
+
+Which yields numbers that are divisable by 8 by plugging in n=1,2,...
+
+This pattern then easily emerges by observing that the polynomial above is precisely the same as moving up from the right-bottom coordinate of any ulam spiral turn, and also by offsetting this pattern at any factor of 8 to the top or bottom.
+
+
 
 
