@@ -1,4 +1,4 @@
-# Ulam spiral Analysis and the idea of Polynomial Generators of factors
+# Ulam spiral Analysis and the idea of Polynomial Generators of multiples 
 
 This is a small document that collects some ruminations and findings done during hacking on the Ulam spiral. Although I spent two fun evenings hacking on this at the time of writing, I regret not being able to spend any time or energy on this and hope this document will lead to others taking this up together with me. 
 
