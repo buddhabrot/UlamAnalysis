@@ -99,13 +99,13 @@ Note of course, that if the first factor of any series is not included in a patt
 
 ## Patterns and polynomials
 
- The following table illustrates the patterns for more factors, showing how the factors of numbers are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
+ The following table illustrates the patterns for more factors, showing how the multiples of factors are aligned in the Ulam spiral - note they are rendered slightly off-center; of course the center point is "1".
 Note that for "2n" (not drawn), this simply would create a checkerboard pattern as odd/even numbers alternate on the Ulam grid. This drawing was unclear so I omitted it.
 
 <table>
   <tr>
     <th>
-      Factors of ...
+      n
     </th>
     <th>
       Pattern
@@ -266,15 +266,15 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
 
 ## Movement along the Ulam spiral and the resulting patterns for prime numbers
 
-Movement up/down on the Ulam spiral, whether this causes positions to jump to new "turns", or not, always adds some factor that is dependent of the turn size, called the "dependent factor", and another factor that is independent of the current turn (as given by the "+0, "+2, "+4" and "+6" offset for each 'side of the turn'), called the "independent factor". Now, this leads to the following important conclusion:
+Movement up/down on the Ulam spiral, whether this causes positions to jump to new "turns", or not, always adds some offset that is dependent of the turn size, called the "turn dependent offset", and another offset that is independent of the current turn (as given by the "+0, "+2, "+4" and "+6" offset for each 'side of the turn'), called the "turn independent offset". Now, this leads to the following conclusion:
 
-<h4>If a cluster of numbers is found, that is built from jumps either dependent on the turn size or not, then, there will be another cluster a little further to the right or top, built by jumping with a factor of the independent factor (a factor that is divisable by the factor of the pattern).</h4>
+<h4>If a cluster of numbers is found, that is built from jumps either dependent on the turn size or not, then, there will be another cluster a little further to the right or top, built by jumping with a multiple of the independent offset (a multiple that is divisable by the factor of the pattern).</h4>
 
 Because of this, clusters will always be oriented in a grid-like fashion. This also means the "leave behinds" in the clusters will be with higher probability located in gaps from these patterns which necessarily also need a 0, 45 or 90 degree orientation towards each other.<b>This can partially explain the tendency for the prime numbers to appear along diagonals and vertical/horizontals in the Ulam spiral. </b>
 
 ### Polynomial generators of patterns
 
-For the factors of "8", which show the diagonal pattern above, the explanation of the pattern can be given by the following polynomial:
+For the multiples of "8", which show the diagonal pattern above, the explanation of the pattern can be given by the following polynomial:
 
 <img src="pattern8_poly.jpg"/>
 
