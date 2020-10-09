@@ -1,6 +1,6 @@
-# Ulam Divisor Analysis
+# Ulam Divisor Analysis and the idea of Polynomial Generators of factors
 
-This is a small document that collects some findings done during hacking on the Ulam spiral. Although I spent two fun evenings hacking on this at the time of writing, I regret not being able to spend any time or energy on this and hope this document will lead to others taking this up together.
+This is a small document that collects some findings done during hacking on the Ulam spiral. Although I spent two fun evenings hacking on this at the time of writing, I regret not being able to spend any time or energy on this and hope this document will lead to others taking this up together with me. 
 
 ## Definitions
 
@@ -57,7 +57,6 @@ Now, moving right of left from a number can mean three things:
 
 <img src="turns_added.jpg">
 
-
 ## Main Findings
 
 From rendering various Ulam spirals, the factors of numbers (the factors of "2" being "2n", the factors of "7" being 7n), form <b>clusters</b> in the spiral that are repeated in the horizontal and vertical direction.
@@ -82,12 +81,17 @@ For <b>31n</b>
 
 <img src="pattern_31.jpeg">
 
-
 ## Composite factors and pattern overlays
 
-It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers. However, while we will try staying aware of this fact for some of the polynomial constructions we'll be building, we will visually draw all the patterns, since focusing on prime factors alone will hide too much things going.
+It is a logical consequence that the factor pattern for a number like "30" will be given by overlaying the pattern of the factors of "2", "3", and "5". Hence, it would seem attractive to only study the factors of non-composite numbers. However, while we will try staying aware of this fact for some of the polynomial constructions we'll be building, we will visually draw all the patterns, since focusing on prime factors alone will hide too much things going. Also, this approach would lead to problems with repeated factors, as for instance the pattern for the number "8" cannot simply be derived from the pattern for "2" (which is a checkerboard pattern), and any repeated factors cannot be converted into the action of composing patterns by intersection.
 
-Note of course, that if the first factor of any series is not included in a pattern (so "7" is not part of the pattern emerging for 7n), the prime numbers will be distributed across the Ulam spiral by overlaying all factor patterns and looking at the leftover positions. Thus, any patterns emerging from the prime number distribution are related to the pattern distribution of regular factors.
+Note of course, that if the first factor of any series is not included in a pattern (so "7" is not part of the pattern emerging for 7n), the <b>prime numbers</b> will be distributed across the Ulam spiral by overlaying all factor patterns and looking at the leftover positions. Thus, any patterns emerging from the prime number distribution are related to the pattern distribution of regular factors.
+
+## Movement along the Ulam spiral and patterns
+
+Movement up/down on the Ulam spiral, whether this causes positions to jump to new "turns", or not, always adds some factor that is dependent of the turn size, and one that is independent of the current turn (as evidenced by the "+0, "+2, "+4" and "+6" offset). Now, this leads to the following important conclusion:
+
+<h4>If a pattern is found, that uses jumps dependent on the turn size, contained within a cluster.</h4>
 
 ## Patterns and polynomials
 
@@ -256,7 +260,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
   </tr>
   </table>
 
-#### Polynomial expansion of patterns
+#### Polynomial generators of patterns
 
 For the factors of "8", which show the diagonal pattern above, the explanation of the pattern can be given by the following polynomial:
 
@@ -264,8 +268,8 @@ For the factors of "8", which show the diagonal pattern above, the explanation o
 
 Which yields numbers that are divisable by 8 by plugging in n=1,2,...
 
-This pattern then easily emerges by observing that the polynomial above is precisely the same as moving up from the right-bottom coordinate of any ulam spiral turn, and also by offsetting this pattern at any factor of 8 to the top or bottom.
+This pattern then easily is connected to the factors of 8 by observing that the polynomial above is precisely the same as moving up from the right-bottom coordinate of any ulam spiral turn, and also by offsetting this pattern at any factor of 8 to the top or bottom. Hence, this pattern will. Note this is a different explanation than simply intersecting the pattern.
 
+## Further research
 
-
-
+The author believes interesting findings can be performed by using cluster analysis to define, extract patterns and generate polynomials for each resulting pattern, that capture the "cluster" correctly. This will bring in an amount of algebraic constraints to these 'generator' polynomials that will hopefully teach us more about them, and hopefully the distributions of the factors they generate, and the prime numbers that are "left behind" by the set of numbers not generated by these polynomials.
