@@ -266,7 +266,7 @@ Note that for "2n" (not drawn), this simply would create a checkerboard pattern 
 
 ## Movement along the Ulam spiral and the resulting patterns for prime numbers
 
-Movement up/down on the Ulam spiral, whether this causes positions to jump to new "turns", or not, always adds some factor that is dependent of the turn size, called the "dependent factor", and another factor that is independent of the current turn (as evidenced by the "+0, "+2, "+4" and "+6" offset), called the "independent factor". Now, this leads to the following important conclusion:
+Movement up/down on the Ulam spiral, whether this causes positions to jump to new "turns", or not, always adds some factor that is dependent of the turn size, called the "dependent factor", and another factor that is independent of the current turn (as given by the "+0, "+2, "+4" and "+6" offset for each 'side of the turn'), called the "independent factor". Now, this leads to the following important conclusion:
 
 <h4>If a cluster of numbers is found, that is built from jumps either dependent on the turn size or not, then, there will be another cluster a little further to the right or top, built by jumping with a factor of the independent factor (a factor that is divisable by the factor of the pattern).</h4>
 
