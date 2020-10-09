@@ -59,7 +59,7 @@ At each point in the Ulam spiral, you belong to a certain "turn", turns being in
 
 Now, moving right of left from a number can mean three things:
 
-- Either it means subtracting or adding "1" to the number, depending if you are on the top, bottom, right, or left of the curve.
+- Either it means subtracting or adding "1" to the number, depending if you are on the top, bottom, right, or left of the current "turn".
 - If you jump down from the right-bottom point to the next turn, you simply add a number (and reversely, you subtract only one if you retreat to a previous turn from this position)
 - Or, it means jumping to a point on the next or previous turn. The change in number will be dependent on the side of the turn you are at. If you are at the bottom of a turn and jump down, to a next turn, you will simply jump with the same amount as the right-bottom side of that turn. For bottom, left, top, right sides this sequence of distances is given by 
 
