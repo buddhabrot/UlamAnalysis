@@ -272,7 +272,7 @@ Movement up/down on the Ulam spiral, whether this causes positions to jump to ne
 
 <h4>If a cluster of numbers is found, that is built from jumps either dependent on the turn size or not, then, there will be another cluster a little further to the right or top, built by jumping with a multiple of the independent offset (a multiple that is divisable by the factor of the pattern).</h4>
 
-Because of this, clusters will always be oriented in a grid-like fashion. This also means the "leave behinds" in the clusters will be with higher probability located in gaps from these patterns which necessarily also need a 0, 45 or 90 degree orientation towards each other.<b>This can partially explain the tendency for the prime numbers to appear along diagonals and vertical/horizontals in the Ulam spiral. </b>
+Because of this, clusters will always be oriented in a grid-like fashion. This also means the "leave behinds" in the clusters will be with higher probability located in gaps from these patterns which necessarily also need a 0, 45 or 90 degree orientation towards each other. But the "leave behinds" of all multiple clusters are obviously, the prime numbers.<b>This can partially explain the tendency for the prime numbers to appear along diagonals and vertical/horizontals in the Ulam spiral. </b>
 
 ### Polynomial generators of patterns
 
