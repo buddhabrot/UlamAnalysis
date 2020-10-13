@@ -46,6 +46,8 @@ def spiral_cell(x,y):
         return p - 6*m - (m + x)
 ```
 
+## Prime numbers and the Ulam spiral
+
 One of the main findings is the appearance of "lines" in the Ulam spiral when <b>prime numbers</b> are marked on it. Some research such as [https://www.researchgate.net/publication/307965102_Finding_Line_Segments_in_the_Ulam_Square_with_the_Hough_Transform] supports this quantitatively.
 This analysis will partially demistify this, but will also open up more questions.
 
@@ -57,7 +59,7 @@ At each point in the Ulam spiral, you belong to a certain "turn", turns being in
 
 <img src="2nplus1.jpg">
 
-Now, moving right of left from a number can mean three things:
+Now, moving around from a number can mean three things:
 
 - Either it means subtracting or adding "1" to the number, depending if you are on the top, bottom, right, or left of the current "turn".
 - If you jump down from the right-bottom point to the next turn, you simply add a number (and reversely, you subtract only one if you retreat to a previous turn from this position)
